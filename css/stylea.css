@@ -1,0 +1,135 @@
+@import url("components/avatar.css") ;
+@import url("components/button.css") ;
+@import url("components/container.css") ;
+@import url("components/banner.css") ;
+@import url("components/card.css") ;
+
+
+
+h1 { font-family: CF Trash Zone;
+	font-size: 70px ; }
+
+#messenger { width: 60px;  }
+
+
+#titre {margin: 50px}
+
+h2 {font-family: Titillium Web;
+	font-size: 20px;}
+
+body { background-image: 
+	linear-gradient(-225deg, rgba(0,0,0,0.8) 34%, rgba(0,0,0,0.1) 100%) ,
+	url(components/background1.jpeg);
+		background-size: 960px;
+	color: white; }
+
+.paragraphe {font-size: 14px;
+			  font-family: Arimo;
+			  padding-top: 40px}
+
+
+a:hover {
+	color:red; }
+
+a {text-decoration: none;
+	color: white; }
+
+#facebook { display: flex;
+			 align-items: flex-start;
+			 justify-content: space-between;
+			background-image: 
+			linear-gradient(-225deg, rgba(0,0,0,0.8) 34%, rgba(0,0,0,0.1) 100%) ,
+			url(facebook.jpg); 
+			background-size: cover;
+			}
+
+#facebook p { margin-top: -100px }
+
+#competition { display: flex;
+				flex-wrap: wrap;
+				background-image: 
+				linear-gradient(-225deg, rgba(0,0,0,0.8) 34%, rgba(0,0,0,0.1) 100%) ,
+				url(competitions.jpg);
+				background-size: cover}
+
+#competition p{text-align: right}
+#citations p {text-align: right}
+
+#citations {  display: flex;
+			flex-wrap: wrap;
+			background-image: 
+			linear-gradient(-225deg, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.1) 100%) ,
+			url(citations.jpg);
+			background-size: cover;}
+
+
+#rubrique_compet{ display: flex;
+				align-content: center;
+				background-color: black ;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				padding: 80px;
+				box-shadow: 0 10px 30px rgba(0,0,0,50);}
+
+.compet img {width: 280px;
+			 border-radius: 5%;
+			 padding-bottom: 30px;}
+
+#ctitre {background-color: black;
+		 padding: 80px;
+		 padding-left: 125px;
+		 margin-bottom: -30px;
+		}
+
+
+#ctitre h1 { font-family: BOXING ;
+			 font-size: 55px}
+
+#cit { display: flex;
+				align-content: center;
+				background-color: black ;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				padding: 80px;
+				padding-left: 80px
+				box-shadow: 0 10px 30px rgba(0,0,0,50);
+				padding-bottom: 200px}
+
+#cit h1 { font-family: BOXING ;
+		  font-size: 55px}
+#cit li {font-size: 18px}
+
+
+@media (max-width: 780px) {
+  /* For a screen < 720px, this CSS will be read */
+  #facebook img {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 560px) {
+  /* For a screen < 540px, this CSS will be read */
+  #facebook img {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 780px) {
+  /* For a screen < 720px, this CSS will be read */
+  #competition p {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 560px) {
+  /* For a screen < 540px, this CSS will be read */
+  #competition p{
+    padding-left: 50px;
+  }
+}
+
+ 
+
+
+
+
+
+

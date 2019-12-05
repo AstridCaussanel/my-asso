@@ -1,0 +1,26 @@
+.button  {
+		 width: 800px;
+		padding:30px ;
+		color: white;
+		}
+
+		 @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .button {
+    width: 800px;
+  }
+}
+@media (max-width: 780px) {
+  /* For a screen < 720px, this CSS will be read */
+  .button {
+    width: 500px;
+    padding-left: -200px
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .button {
+    width: 200px;
+     padding-left: -200px
+  }
+}
